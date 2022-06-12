@@ -1,0 +1,16 @@
+{
+  "name": "shopify_dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "logout:s": "shopify logout",
+    "login:s": "shopify login --store=$npm_package_config_store",
+    "theme": "shopify theme serve"
+  },
+  "config": {
+    "store": "dailytrial-teststore-r.myshopify.com"
+  },
+  "repository": "git@github.com:rik9228/shopify_dev.git",
+  "author": "rik9228 <rank228130@gmail.com>",
+  "license": "MIT"
+}
