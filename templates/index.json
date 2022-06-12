@@ -1,1 +1,163 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"NEW COLLECTION","heading_size":"medium"}}},"block_order":["heading"],"settings":{"image":"shopify:\/\/shop_images\/Top.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"164039773676ef00e3":{"type":"image-with-text","blocks":{"16403977362e65a28e-0":{"type":"heading","settings":{"heading":"ABOUT","heading_size":"h1"}},"16403977362e65a28e-1":{"type":"text","settings":{"text":"<p>DAILY TRIALは、現在のスニーカーシーンに<\/p><p>新たなスタンダードを築きあげるために誕生した<\/p><p>デザイン性と機能性を兼ね備えたスニーカーブランドです。<\/p>","text_style":"body"}},"16403977362e65a28e-2":{"type":"button","settings":{"button_label":"MORE","button_link":"shopify:\/\/pages\/about-us"}}},"block_order":["16403977362e65a28e-0","16403977362e65a28e-1","16403977362e65a28e-2"],"settings":{"image":"shopify:\/\/shop_images\/About.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left"}},"featured_products":{"type":"featured-collection","settings":{"title":"NEW ARRIVAL","collection":"新着","products_to_show":4,"show_view_all":true,"swipe_on_mobile":false,"image_ratio":"square","show_secondary_image":false,"add_image_padding":false,"show_image_outline":true,"show_vendor":false,"show_rating":false}},"16403977175e861001":{"type":"featured-collection","settings":{"title":"RECOMMEND","collection":"おすすめ","products_to_show":4,"show_view_all":true,"swipe_on_mobile":false,"image_ratio":"adapt","show_secondary_image":false,"add_image_padding":false,"show_image_outline":true,"show_vendor":false,"show_rating":false}},"1640397719c52856c7":{"type":"collection-list","blocks":{"1640397719a27bdef7-0":{"type":"featured_collection","settings":{"collection":"メンズ"}},"1640397719a27bdef7-1":{"type":"featured_collection","settings":{"collection":"レディース"}},"1640397719a27bdef7-2":{"type":"featured_collection","settings":{"collection":"キッズ"}}},"block_order":["1640397719a27bdef7-0","1640397719a27bdef7-1","1640397719a27bdef7-2"],"settings":{"title":"SERIES","image_ratio":"adapt","color_scheme":"inverse","swipe_on_mobile":false,"image_padding":false,"show_view_all":false}},"16403977249a71de46":{"type":"featured-blog","settings":{"heading":"NEWS","blog":"ニュース","post_limit":3,"show_image":false,"show_date":true,"show_author":false,"soft_background":false,"show_view_all":true}}},"order":["image_banner","164039773676ef00e3","featured_products","16403977175e861001","1640397719c52856c7","16403977249a71de46"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEW COLLECTION",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Top.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "164039773676ef00e3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16403977362e65a28e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT",
+            "heading_size": "h1"
+          }
+        },
+        "16403977362e65a28e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DAILY TRIALは、現在のスニーカーシーンに<\/p><p>新たなスタンダードを築きあげるために誕生した<\/p><p>デザイン性と機能性を兼ね備えたスニーカーブランドです。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16403977362e65a28e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "16403977362e65a28e-0",
+        "16403977362e65a28e-1",
+        "16403977362e65a28e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVAL",
+        "collection": "新着",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16403977175e861001": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "RECOMMEND",
+        "collection": "おすすめ",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640397719c52856c7": {
+      "type": "collection-list",
+      "blocks": {
+        "1640397719a27bdef7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "メンズ"
+          }
+        },
+        "1640397719a27bdef7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "レディース"
+          }
+        },
+        "1640397719a27bdef7-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "キッズ"
+          }
+        }
+      },
+      "block_order": [
+        "1640397719a27bdef7-0",
+        "1640397719a27bdef7-1",
+        "1640397719a27bdef7-2"
+      ],
+      "settings": {
+        "title": "SERIES",
+        "image_ratio": "adapt",
+        "color_scheme": "inverse",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16403977249a71de46": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "NEWS",
+        "blog": "ニュース",
+        "post_limit": 3,
+        "show_image": false,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "164039773676ef00e3",
+    "featured_products",
+    "16403977175e861001",
+    "1640397719c52856c7",
+    "16403977249a71de46"
+  ]
+}

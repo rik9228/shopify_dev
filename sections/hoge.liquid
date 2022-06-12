@@ -1,0 +1,70 @@
+<section class="grid-section">
+  <h2>{{section.settings.title}}</h2>
+  {% if section.blocks != blank %}
+    <ul style="margin:0; padding:0; display: grid; grid-template-columns: repeat(3,1fr); gap:24px;">
+      {% for block in section.blocks %}
+        <li style="list-style: none;">
+          {% if block.settings.imageh != blank %}
+            <img style="max-width: 100%; height:auto;" src="{{ block.settings.imageh | img_url: 'master'}}" alt="">
+          {% endif %}
+
+          {% if block.settings.caption != blank %}
+            <span>{{block.settings.caption}}</span>
+          {% endif %}
+        </li>
+        <p>{{block.settings.desc}}</p>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "サンプルコレクション",
+  "settings": [
+  {
+    "type": "text",
+    "id": "title",
+    "label": "見出し",
+    "default":"テキストが入ります。"
+  }],
+  "blocks":[
+  {
+    "type": "grid_item",
+    "name": "画像",
+    "settings": [
+    {
+      "type": "image_picker",
+      "id": "imageh",
+      "label": "画像をTech追加してください"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "内容を記入してください",
+      "default": "本文が入ります。本文が入ります。本文が入ります。"
+    }
+    ]
+  }
+  ],
+  "presets":[
+    {
+      "name": "サンプルコレクション",
+      "settings": {
+        "title": "サンプルテキスト"
+      },
+     "blocks": [
+       {
+         "type": "grid_item"
+       },
+       {
+         "type": "grid_item"
+       },
+       {
+         "type": "grid_item"
+       }
+     ]
+    }
+  ]
+}
+{% endschema %}
